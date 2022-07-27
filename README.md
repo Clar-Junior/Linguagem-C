@@ -1,2 +1,3 @@
 # Linguagem-C
- primeiro repositório versionado
+
+ Primeiro repositório versionado.
