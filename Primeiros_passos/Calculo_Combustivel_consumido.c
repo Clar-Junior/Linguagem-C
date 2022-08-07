@@ -3,7 +3,7 @@
 #define consumo 12  //Consumo médio do veículo.
 
 int main(){
-	int tempo, velocidade, distancia, litros_usados, consumo_medio;
+	int tempo, velocidade, distancia, litros_usados;
 
 //Input
 	puts("Quanto tempo durou a viagem?");
@@ -16,7 +16,6 @@ int main(){
 //Data Processing
 	distancia = tempo * velocidade;
 	litros_usados = distancia / consumo;
-	consumo_medio = distancia / litros_usados;
     
 //Output
 	printf("A viagem durou %d horas.\n", tempo);
